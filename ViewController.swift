@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     func sendMessage(from sender: String, to recipient: String) {
-        print("\(sender) has sent a message to \(recipient)")
+        print("\(sender) has sent a text message to \(recipient)")
     }
     
 
