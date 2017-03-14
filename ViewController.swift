@@ -20,9 +20,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func sampleFunction() -> Void {
-        let newVar = 8.9
+    func sendMessage(from sender: String, to recipient: String) {
+        print("\(sender) has sent a message to \(recipient)")
     }
+    
 
 }
 
