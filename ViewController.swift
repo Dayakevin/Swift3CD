@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     func sampleFunction() -> Void {
-        
+        let newVar = 8.9
     }
 
 }
